@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.7.922.0">
+  <Summary numSequencePoints="120" visitedSequencePoints="2" numBranchPoints="58" visitedBranchPoints="1" sequenceCoverage="1.67" branchCoverage="1.72" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" maxCrapScore="56" minCrapScore="1" visitedClasses="1" numClasses="10" visitedMethods="1" numMethods="34" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="AC-E9-5B-E2-17-18-10-1B-85-F1-52-BC-0C-F5-DD-D8-7F-63-43-3C">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2019-12-07T06:03:04Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="A8-E5-23-F8-08-F8-FF-4C-CF-72-8A-22-FE-F5-6D-27-C6-87-AB-76">
+      <Summary numSequencePoints="120" visitedSequencePoints="2" numBranchPoints="58" visitedBranchPoints="1" sequenceCoverage="1.67" branchCoverage="1.72" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" maxCrapScore="56" minCrapScore="1" visitedClasses="1" numClasses="10" visitedMethods="1" numMethods="34" />
+      <ModulePath>C:\Users\Clemprud\source\repos\QuizzMock\QuizzMockTests\bin\Debug\QuizzMock.exe</ModulePath>
+      <ModuleTime>2020-05-10T23:26:40.298144Z</ModuleTime>
+      <ModuleName>QuizzMock</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\Clemprud\source\repos\QuizzMock\QuizzMock\Services\LevelProvider.cs" />
+        <File uid="2" fullPath="C:\Users\Clemprud\source\repos\QuizzMock\QuizzMock\Program.cs" />
+        <File uid="3" fullPath="C:\Users\Clemprud\source\repos\QuizzMock\QuizzMock\QuizzFactory.cs" />
+        <File uid="5" fullPath="C:\Users\Clemprud\source\repos\QuizzMock\QuizzMock\Subscription.cs" />
+        <File uid="6" fullPath="C:\Users\Clemprud\source\repos\QuizzMock\QuizzMock\Services\UserService.cs" />
+        <File uid="7" fullPath="C:\Users\Clemprud\source\repos\QuizzMock\QuizzMock\Model\BasicQuestion.cs" />
+        <File uid="8" fullPath="C:\Users\Clemprud\source\repos\QuizzMock\QuizzMock\Model\Question.cs" />
+        <File uid="9" fullPath="C:\Users\Clemprud\source\repos\QuizzMock\QuizzMock\Model\Quizz.cs" />
+        <File uid="10" fullPath="C:\Users\Clemprud\source\repos\QuizzMock\QuizzMock\Model\User.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="12" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="1" maxCrapScore="12" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>QuizzMock.LevelProvider</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void QuizzMock.LevelProvider::.ctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="31" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2" ordinal="1" offset="7" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="3" ordinal="2" offset="8" sl="17" sc="13" el="17" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="4" ordinal="3" offset="19" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="31" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" crapScore="12" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="5" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>QuizzMock.Level QuizzMock.LevelProvider::GetLevel()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="5" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="6" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="46" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="7" ordinal="2" offset="16" sl="23" sc="13" el="23" ec="28" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="8" ordinal="3" offset="24" sl="24" sc="17" el="24" ec="35" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="9" ordinal="4" offset="28" sl="25" sc="13" el="25" ec="28" bec="2" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="10" ordinal="5" offset="36" sl="26" sc="17" el="26" ec="37" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="11" ordinal="6" offset="40" sl="27" sc="13" el="27" ec="31" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="12" ordinal="7" offset="44" sl="28" sc="9" el="28" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="13" ordinal="0" offset="22" sl="23" path="0" offsetend="24" fileid="1" />
+                <BranchPoint vc="0" uspid="14" ordinal="1" offset="22" sl="23" path="1" offsetend="28" fileid="1" />
+                <BranchPoint vc="0" uspid="15" ordinal="2" offset="34" sl="25" path="0" offsetend="36" fileid="1" />
+                <BranchPoint vc="0" uspid="16" ordinal="3" offset="34" sl="25" path="1" offsetend="40" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="5" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>QuizzMock.Program</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="2" visitedSequencePoints="2" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Void QuizzMock.Program::Main(System.String[])</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="17" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="18" ordinal="1" offset="1" sl="7" sc="9" el="7" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="17" ordinal="0" offset="0" sl="6" sc="9" el="6" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Void QuizzMock.Program::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="19" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="40" visitedSequencePoints="0" numBranchPoints="18" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" maxCrapScore="56" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>QuizzMock.QuizzFactory</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Void QuizzMock.QuizzFactory::.ctor()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="20" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="30" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="21" ordinal="1" offset="7" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="22" ordinal="2" offset="8" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="20" ordinal="0" offset="0" sl="10" sc="9" el="10" ec="30" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void QuizzMock.QuizzFactory::.ctor(QuizzMock.ILevelProvider)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="23" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="58" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="24" ordinal="1" offset="7" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="25" ordinal="2" offset="8" sl="17" sc="13" el="17" ec="44" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="26" ordinal="3" offset="15" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="23" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="58" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="7" nPathComplexity="64" sequenceCoverage="0" branchCoverage="0" crapScore="56" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="23" visitedSequencePoints="0" numBranchPoints="13" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="7" maxCrapScore="56" minCrapScore="56" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663304</MetadataToken>
+              <Name>QuizzMock.Model.Quizz QuizzMock.QuizzFactory::GenerateQuizz(System.Int32)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="27" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="28" ordinal="1" offset="1" sl="22" sc="13" el="22" ec="50" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="29" ordinal="2" offset="7" sl="24" sc="18" el="24" ec="27" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="30" ordinal="3" offset="11" sl="25" sc="13" el="25" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="31" ordinal="4" offset="12" sl="26" sc="17" el="26" ec="72" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="32" ordinal="5" offset="35" sl="27" sc="13" el="27" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="33" ordinal="6" offset="36" sl="24" sc="39" el="24" ec="42" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="34" ordinal="7" offset="40" sl="24" sc="29" el="24" ec="37" bec="2" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="35" ordinal="8" offset="50" sl="29" sc="13" el="29" ec="74" bec="2" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="36" ordinal="9" offset="95" sl="30" sc="13" el="30" ec="40" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="37" ordinal="10" offset="97" sl="32" sc="13" el="32" ec="40" bec="4" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="38" ordinal="11" offset="117" sl="33" sc="13" el="33" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="39" ordinal="12" offset="118" sl="34" sc="17" el="34" ec="39" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="40" ordinal="13" offset="120" sl="35" sc="13" el="35" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="41" ordinal="14" offset="123" sl="36" sc="18" el="36" ec="45" bec="4" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="42" ordinal="15" offset="143" sl="37" sc="13" el="37" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="43" ordinal="16" offset="144" sl="38" sc="17" el="38" ec="41" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="44" ordinal="17" offset="146" sl="39" sc="13" el="39" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="45" ordinal="18" offset="149" sl="41" sc="13" el="41" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="46" ordinal="19" offset="150" sl="42" sc="17" el="42" ec="39" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="47" ordinal="20" offset="152" sl="43" sc="13" el="43" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="48" ordinal="21" offset="153" sl="45" sc="13" el="48" ec="15" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="49" ordinal="22" offset="178" sl="49" sc="9" el="49" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="50" ordinal="0" offset="48" sl="24" path="0" offsetend="50" fileid="3" />
+                <BranchPoint vc="0" uspid="51" ordinal="1" offset="48" sl="24" path="1" offsetend="11" fileid="3" />
+                <BranchPoint vc="0" uspid="52" ordinal="2" offset="57" sl="29" path="0" offsetend="59" fileid="3" />
+                <BranchPoint vc="0" uspid="53" ordinal="3" offset="57" sl="29" path="1" offsetend="82" fileid="3" />
+                <BranchPoint vc="0" uspid="54" ordinal="4" offset="99" sl="32" path="0" offsetend="101" fileid="3" />
+                <BranchPoint vc="0" uspid="55" ordinal="5" offset="99" sl="32" path="1" offsetend="110" fileid="3" />
+                <BranchPoint vc="0" uspid="56" ordinal="6" offset="115" sl="32" path="0" offsetend="117" fileid="3" />
+                <BranchPoint vc="0" uspid="57" ordinal="7" offset="115" sl="32" path="1" offsetend="123" fileid="3" />
+                <BranchPoint vc="0" uspid="58" ordinal="8" offset="125" sl="36" path="0" offsetend="127" fileid="3" />
+                <BranchPoint vc="0" uspid="59" ordinal="9" offset="125" sl="36" path="1" offsetend="136" fileid="3" />
+                <BranchPoint vc="0" uspid="60" ordinal="10" offset="141" sl="36" path="0" offsetend="143" fileid="3" />
+                <BranchPoint vc="0" uspid="61" ordinal="11" offset="141" sl="36" path="1" offsetend="149" fileid="3" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="27" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;QuizzMock.Model.BasicQuestion&gt; QuizzMock.QuizzFactory::GenerateBasicQuizz(System.Int32)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="62" ordinal="0" offset="0" sl="52" sc="9" el="52" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="63" ordinal="1" offset="1" sl="53" sc="13" el="53" ec="55" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="64" ordinal="2" offset="7" sl="55" sc="18" el="55" ec="27" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="65" ordinal="3" offset="11" sl="56" sc="13" el="56" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="66" ordinal="4" offset="12" sl="57" sc="17" el="57" ec="52" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="67" ordinal="5" offset="24" sl="58" sc="13" el="58" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="68" ordinal="6" offset="25" sl="55" sc="39" el="55" ec="42" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="69" ordinal="7" offset="29" sl="55" sc="29" el="55" ec="37" bec="2" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="70" ordinal="8" offset="37" sl="60" sc="13" el="60" ec="30" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="71" ordinal="9" offset="41" sl="61" sc="9" el="61" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="72" ordinal="0" offset="35" sl="55" path="0" offsetend="37" fileid="3" />
+                <BranchPoint vc="0" uspid="73" ordinal="1" offset="35" sl="55" path="1" offsetend="11" fileid="3" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="62" ordinal="0" offset="0" sl="52" sc="9" el="52" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>QuizzMock.QuizzFactory/&lt;&gt;c</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663337</MetadataToken>
+              <Name>System.Void QuizzMock.QuizzFactory/&lt;&gt;c::.cctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="74" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663338</MetadataToken>
+              <Name>System.Void QuizzMock.QuizzFactory/&lt;&gt;c::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="75" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663339</MetadataToken>
+              <Name>System.Int32 QuizzMock.QuizzFactory/&lt;&gt;c::&lt;GenerateQuizz&gt;b__3_0(QuizzMock.Model.Question)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="76" ordinal="0" offset="0" sl="29" sc="44" el="29" ec="52" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="76" ordinal="0" offset="0" sl="29" sc="44" el="29" ec="52" bec="0" bev="0" fileid="3" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="14" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>QuizzMock.Subscription</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.Void QuizzMock.Subscription::.ctor(QuizzMock.IUserService)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="77" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="54" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="78" ordinal="1" offset="7" sl="12" sc="9" el="12" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="79" ordinal="2" offset="8" sl="13" sc="13" el="13" ec="40" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="80" ordinal="3" offset="15" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="77" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="54" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Boolean QuizzMock.Subscription::HasSubscribed(System.String,System.String,System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="81" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="82" ordinal="1" offset="1" sl="18" sc="13" el="23" ec="15" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="83" ordinal="2" offset="31" sl="26" sc="13" el="26" ec="14" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="84" ordinal="3" offset="32" sl="27" sc="17" el="27" ec="60" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="85" ordinal="4" offset="45" sl="28" sc="13" el="28" ec="14" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="86" ordinal="5" offset="48" sl="29" sc="13" el="29" ec="30" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="87" ordinal="6" offset="49" sl="30" sc="13" el="30" ec="14" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="88" ordinal="7" offset="50" sl="31" sc="17" el="31" ec="30" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="89" ordinal="8" offset="54" sl="34" sc="13" el="34" ec="25" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="0" uspid="90" ordinal="9" offset="58" sl="35" sc="9" el="35" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="81" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="6" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="2" />
+          <FullName>QuizzMock.UserService</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;QuizzMock.Model.User&gt; QuizzMock.UserService::GetUsers()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="91" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="92" ordinal="1" offset="1" sl="16" sc="13" el="22" ec="15" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="93" ordinal="2" offset="265" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="91" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="0" branchCoverage="0" crapScore="6" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="3" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="6" minCrapScore="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Guid QuizzMock.UserService::CreateUser(QuizzMock.Model.User)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="94" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="95" ordinal="1" offset="1" sl="27" sc="13" el="27" ec="61" bec="2" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="96" ordinal="2" offset="16" sl="28" sc="13" el="28" ec="14" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="97" ordinal="3" offset="17" sl="29" sc="17" el="29" ec="64" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="98" ordinal="4" offset="28" sl="32" sc="13" el="32" ec="14" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="99" ordinal="5" offset="29" sl="34" sc="17" el="34" ec="35" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="0" uspid="100" ordinal="6" offset="41" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="101" ordinal="0" offset="14" sl="27" path="0" offsetend="16" fileid="6" />
+                <BranchPoint vc="0" uspid="102" ordinal="1" offset="14" sl="27" path="1" offsetend="28" fileid="6" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="94" ordinal="0" offset="0" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="6" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void QuizzMock.UserService::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="103" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="12" visitedSequencePoints="0" numBranchPoints="5" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="5" />
+          <FullName>QuizzMock.Model.BasicQuestion</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.String QuizzMock.Model.BasicQuestion::get_Libelle()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="104" ordinal="0" offset="0" sl="5" sc="33" el="5" ec="37" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="104" ordinal="0" offset="0" sl="5" sc="33" el="5" ec="37" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void QuizzMock.Model.BasicQuestion::set_Libelle(System.String)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="105" ordinal="0" offset="0" sl="5" sc="38" el="5" ec="42" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="105" ordinal="0" offset="0" sl="5" sc="38" el="5" ec="42" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Int32 QuizzMock.Model.BasicQuestion::get_Points()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="106" ordinal="0" offset="0" sl="6" sc="33" el="6" ec="34" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="107" ordinal="1" offset="1" sl="6" sc="35" el="6" ec="44" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="108" ordinal="2" offset="5" sl="6" sc="45" el="6" ec="46" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="106" ordinal="0" offset="0" sl="6" sc="33" el="6" ec="34" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.Void QuizzMock.Model.BasicQuestion::set_Points(System.Int32)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="109" ordinal="0" offset="0" sl="6" sc="51" el="6" ec="52" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="110" ordinal="1" offset="1" sl="6" sc="53" el="6" ec="68" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="111" ordinal="2" offset="9" sl="6" sc="69" el="6" ec="70" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="109" ordinal="0" offset="0" sl="6" sc="51" el="6" ec="52" bec="0" bev="0" fileid="7" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void QuizzMock.Model.BasicQuestion::.ctor()</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="112" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="31" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="113" ordinal="1" offset="7" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="114" ordinal="2" offset="8" sl="10" sc="13" el="10" ec="46" bec="0" bev="0" fileid="7" />
+                <SequencePoint vc="0" uspid="115" ordinal="3" offset="20" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="7" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="112" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="31" bec="0" bev="0" fileid="7" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="17" visitedSequencePoints="0" numBranchPoints="9" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" maxCrapScore="30" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="5" />
+          <FullName>QuizzMock.Model.Question</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>System.String QuizzMock.Model.Question::get_Libelle()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="116" ordinal="0" offset="0" sl="5" sc="33" el="5" ec="37" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="116" ordinal="0" offset="0" sl="5" sc="33" el="5" ec="37" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void QuizzMock.Model.Question::set_Libelle(System.String)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="117" ordinal="0" offset="0" sl="5" sc="38" el="5" ec="42" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="117" ordinal="0" offset="0" sl="5" sc="38" el="5" ec="42" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Int32 QuizzMock.Model.Question::get_Points()</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="118" ordinal="0" offset="0" sl="6" sc="29" el="6" ec="33" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="118" ordinal="0" offset="0" sl="6" sc="29" el="6" ec="33" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void QuizzMock.Model.Question::set_Points(System.Int32)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="119" ordinal="0" offset="0" sl="6" sc="34" el="6" ec="38" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="119" ordinal="0" offset="0" sl="6" sc="34" el="6" ec="38" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="5" nPathComplexity="4" sequenceCoverage="0" branchCoverage="0" crapScore="30" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="13" visitedSequencePoints="0" numBranchPoints="5" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" maxCrapScore="30" minCrapScore="30" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Void QuizzMock.Model.Question::.ctor(QuizzMock.Level)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="120" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="37" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="121" ordinal="1" offset="7" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="122" ordinal="2" offset="8" sl="10" sc="13" el="10" ec="46" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="123" ordinal="3" offset="20" sl="12" sc="13" el="12" ec="27" bec="4" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="124" ordinal="4" offset="44" sl="15" sc="21" el="15" ec="32" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="125" ordinal="5" offset="52" sl="16" sc="21" el="16" ec="27" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="126" ordinal="6" offset="54" sl="18" sc="21" el="18" ec="32" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="127" ordinal="7" offset="62" sl="19" sc="21" el="19" ec="27" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="128" ordinal="8" offset="64" sl="21" sc="21" el="21" ec="32" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="129" ordinal="9" offset="72" sl="22" sc="21" el="22" ec="27" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="130" ordinal="10" offset="74" sl="24" sc="21" el="24" ec="32" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="131" ordinal="11" offset="82" sl="25" sc="21" el="25" ec="27" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="0" uspid="132" ordinal="12" offset="84" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="133" ordinal="0" offset="25" sl="12" path="0" offsetchain="42" offsetend="74" fileid="8" />
+                <BranchPoint vc="0" uspid="134" ordinal="1" offset="25" sl="12" path="1" offsetend="44" fileid="8" />
+                <BranchPoint vc="0" uspid="135" ordinal="2" offset="25" sl="12" path="2" offsetend="54" fileid="8" />
+                <BranchPoint vc="0" uspid="136" ordinal="3" offset="25" sl="12" path="3" offsetend="64" fileid="8" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="120" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="37" bec="0" bev="0" fileid="8" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="4" />
+          <FullName>QuizzMock.Model.Quizz</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Collections.Generic.List`1&lt;QuizzMock.Model.Question&gt; QuizzMock.Model.Quizz::get_Questions()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="137" ordinal="0" offset="0" sl="7" sc="43" el="7" ec="47" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="137" ordinal="0" offset="0" sl="7" sc="43" el="7" ec="47" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Void QuizzMock.Model.Quizz::set_Questions(System.Collections.Generic.List`1&lt;QuizzMock.Model.Question&gt;)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="138" ordinal="0" offset="0" sl="7" sc="48" el="7" ec="52" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="138" ordinal="0" offset="0" sl="7" sc="48" el="7" ec="52" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>QuizzMock.Level QuizzMock.Model.Quizz::get_AverageLevel()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="139" ordinal="0" offset="0" sl="8" sc="37" el="8" ec="41" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="139" ordinal="0" offset="0" sl="8" sc="37" el="8" ec="41" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Void QuizzMock.Model.Quizz::set_AverageLevel(QuizzMock.Level)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="140" ordinal="0" offset="0" sl="8" sc="42" el="8" ec="46" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="140" ordinal="0" offset="0" sl="8" sc="42" el="8" ec="46" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void QuizzMock.Model.Quizz::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="141" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="8" visitedSequencePoints="0" numBranchPoints="8" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="8" />
+          <FullName>QuizzMock.Model.User</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Guid QuizzMock.Model.User::get_Id()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="142" ordinal="0" offset="0" sl="7" sc="26" el="7" ec="30" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="142" ordinal="0" offset="0" sl="7" sc="26" el="7" ec="30" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void QuizzMock.Model.User::set_Id(System.Guid)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="143" ordinal="0" offset="0" sl="7" sc="31" el="7" ec="35" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="143" ordinal="0" offset="0" sl="7" sc="31" el="7" ec="35" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.String QuizzMock.Model.User::get_UserName()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="144" ordinal="0" offset="0" sl="8" sc="34" el="8" ec="38" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="144" ordinal="0" offset="0" sl="8" sc="34" el="8" ec="38" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.Void QuizzMock.Model.User::set_UserName(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="145" ordinal="0" offset="0" sl="8" sc="39" el="8" ec="43" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="145" ordinal="0" offset="0" sl="8" sc="39" el="8" ec="43" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663332</MetadataToken>
+              <Name>System.String QuizzMock.Model.User::get_Firstname()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="146" ordinal="0" offset="0" sl="9" sc="35" el="9" ec="39" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="146" ordinal="0" offset="0" sl="9" sc="35" el="9" ec="39" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663333</MetadataToken>
+              <Name>System.Void QuizzMock.Model.User::set_Firstname(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="147" ordinal="0" offset="0" sl="9" sc="40" el="9" ec="44" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="147" ordinal="0" offset="0" sl="9" sc="40" el="9" ec="44" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663334</MetadataToken>
+              <Name>System.String QuizzMock.Model.User::get_LastName()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="148" ordinal="0" offset="0" sl="10" sc="34" el="10" ec="38" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="148" ordinal="0" offset="0" sl="10" sc="34" el="10" ec="38" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663335</MetadataToken>
+              <Name>System.Void QuizzMock.Model.User::set_LastName(System.String)</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="149" ordinal="0" offset="0" sl="10" sc="39" el="10" ec="43" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="149" ordinal="0" offset="0" sl="10" sc="39" el="10" ec="43" bec="0" bev="0" fileid="10" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663336</MetadataToken>
+              <Name>System.Void QuizzMock.Model.User::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="150" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>
